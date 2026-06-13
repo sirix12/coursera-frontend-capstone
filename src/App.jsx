@@ -7,12 +7,12 @@ import Hero from './Components/Hero'
 function App() {
 
   return (
-    <>
+    <div className="app">
       <Header />
       <Hero />
       <Main />
       <Footer />
-    </>
+    </div>
   )
 }
 
